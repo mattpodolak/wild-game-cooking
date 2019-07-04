@@ -10,6 +10,9 @@ const pillsStyle = {
     marginTop: "30px",
     minHeight: "32px",
     textDecoration: "none"
+  },
+  pillText: {
+    color: "#3c4858",
   }
 };
 

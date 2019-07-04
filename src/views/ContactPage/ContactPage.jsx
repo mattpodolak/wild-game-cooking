@@ -42,11 +42,11 @@ class ContactPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax small filter image={require("assets/img/profile-bg.jpg")}>
+        <Parallax small filter image={require("assets/img/contact-bg.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Contact Us</h1>
+                <h1 className={classes.title}>Contact</h1>
               </GridItem>
             </GridContainer>
           </div>

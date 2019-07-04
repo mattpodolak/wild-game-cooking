@@ -17,7 +17,7 @@ import Button from "components/CustomButtons/Button.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
+import aboutPageStyle from "assets/jss/material-kit-react/views/aboutPage.jsx";
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
@@ -40,33 +40,16 @@ class AboutPage extends React.Component {
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
-            height: 400,
+            height: 100,
             color: "white"
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax small filter image={require("assets/img/about-bg.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Lorem Ipsum Title</h1>
-                <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that{"'"}s why we added this text here. Add here
-                  all the information that can make you or your product create
-                  the first impression.
-                </h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?time_continue=5&v=XcnHOQ-cHa0"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fas fa-play" />
-                  Watch trailer
-                </Button>
+                <h1 className={classes.title}>About</h1>
               </GridItem>
             </GridContainer>
           </div>
@@ -86,4 +69,4 @@ AboutPage.propTypes = {
   classes: PropTypes.object
 };
 
-export default withStyles(componentsStyle)(AboutPage);
+export default withStyles(aboutPageStyle)(AboutPage);
