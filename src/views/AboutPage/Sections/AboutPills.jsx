@@ -24,16 +24,12 @@ class AboutPills extends React.Component {
           <div id="navigation-pills">
             <GridContainer>
               <GridItem xs={12} sm={12} md={12} lg={12}>
-                <NavPills
-                  color="rose"
-                  horizontal={{
-                    tabsGrid: { xs: 12, sm: 4, md: 4 },
-                    contentGrid: { xs: 12, sm: 8, md: 8 }
-                  }}
+              <NavPills
+                  color="primary"
                   tabs={[
                     {
-                      tabButton: "About 1",
-                      tabIcon: Dashboard,
+                      tabButton: "Episode 1",
+                      //tabIcon: Dashboard,
                       tabContent: (
                         <span className={classes.pillText}>
                           <p>
@@ -61,8 +57,8 @@ class AboutPills extends React.Component {
                       )
                     },
                     {
-                      tabButton: "About 2",
-                      tabIcon: Schedule,
+                      tabButton: "Episode 2",
+                      //tabIcon: Schedule,
                       tabContent: (
                         <span className={classes.pillText}>
                           <p>
@@ -84,8 +80,169 @@ class AboutPills extends React.Component {
                       )
                     },
                     {
-                      tabButton: "About 3",
-                      tabIcon: List,
+                      tabButton: "Episode 3",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 4",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 5",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 6",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 7",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 8",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 9",
+                      //tabIcon: List,
+                      tabContent: (
+                        <span className={classes.pillText}>
+                          <p>
+                            Efficiently unleash cross-media information without
+                            cross-media value. Quickly maximize timely
+                            deliverables for real-time schemas.
+                          </p>
+                          <br />
+                          <p>
+                            Dramatically maintain clicks-and-mortar solutions
+                            without functional solutions. Dramatically visualize
+                            customer directed convergence without revolutionary
+                            ROI. Collaboratively administrate empowered markets
+                            via plug-and-play networks. Dynamically
+                            procrastinate B2C users after installed base
+                            benefits.
+                          </p>
+                        </span>
+                      )
+                    },
+                    {
+                      tabButton: "Episode 10",
+                      //tabIcon: List,
                       tabContent: (
                         <span className={classes.pillText}>
                           <p>

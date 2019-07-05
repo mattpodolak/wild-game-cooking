@@ -27,12 +27,12 @@ function Footer({ ...props }) {
         <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://tannersbeach.ca"
+            <a
+                href="/"
                 className={classes.block}
-                target="_blank"
+                
               >
-                Tanners Beach Productions
+                Home
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -56,7 +56,7 @@ function Footer({ ...props }) {
           </List>
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} Tanners Beach Productions
+          &copy; {1900 + new Date().getYear()} Wild Game Productions
         </div>
       </div>
     </footer>

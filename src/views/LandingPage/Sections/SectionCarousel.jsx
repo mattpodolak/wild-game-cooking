@@ -12,9 +12,10 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import image1 from "assets/img/salmon-3-ways.jpg";
+import image2 from "assets/img/rabbit-ravioli.jpg";
+import image3 from "assets/img/beaver-burger.jpg";
+import image4 from "assets/img/moose-taco.jpg";
 
 class SectionCarousel extends React.Component {
   render() {
@@ -43,7 +44,7 @@ class SectionCarousel extends React.Component {
                     <div className="slick-caption">
                       <h4>
                         <LocationOn className="slick-icons" />
-                        Yellowstone National Park, United States
+                        Salmon 3-ways – Chef Rupert prepares wild Coho Salmon 3-Ways with fennel risotto, confit of cherry tomatoes and asparagus.
                       </h4>
                     </div>
                   </div>
@@ -56,7 +57,7 @@ class SectionCarousel extends React.Component {
                     <div className="slick-caption">
                       <h4>
                         <LocationOn className="slick-icons" />
-                        Somewhere Beyond, United States
+                        Rabbit Ravioli – Chef Rupert prepares a sage rabbit ravioli with a parmesan grated cheese cloud.
                       </h4>
                     </div>
                   </div>
@@ -69,7 +70,20 @@ class SectionCarousel extends React.Component {
                     <div className="slick-caption">
                       <h4>
                         <LocationOn className="slick-icons" />
-                        Yellowstone National Park, United States
+                        Beaver Burger – Chef Becky prepares a Beaver Burger with ground beaver and pork, cranberry compote, aioli, arugula & grilled King mushrooms.
+                      </h4>
+                    </div>
+                  </div>
+                  <div>
+                    <img
+                      src={image4}
+                      alt="Fourth slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                      <h4>
+                        <LocationOn className="slick-icons" />
+                        Moose Taco – Chef Becky prepares a fried bannock taco with ground moose, pico de gallo, jalapeno{"’"}s, grated cheese and sour cream.
                       </h4>
                     </div>
                   </div>

@@ -20,11 +20,8 @@ import Parallax from "components/Parallax/Parallax.jsx";
 import aboutPageStyle from "assets/jss/material-kit-react/views/aboutPage.jsx";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.jsx";
-// import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
+import SponsorSection from "./Sections/SponsorSection.jsx";
 import AboutPills from "./Sections/AboutPills.jsx";
-import SectionCarousel from "./Sections/SectionCarousel.jsx";
 
 const dashboardRoutes = [];
 
@@ -57,6 +54,7 @@ class AboutPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <AboutPills />
+            <SponsorSection/>
           </div>
         </div>
         <Footer />

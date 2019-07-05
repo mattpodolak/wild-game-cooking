@@ -18,9 +18,9 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import team1 from "assets/img/faces/rupert.png";
+import team2 from "assets/img/faces/becky.png";
+import team3 from "assets/img/faces/raffi.png";
 
 class TeamSection extends React.Component {
   render() {
@@ -32,7 +32,7 @@ class TeamSection extends React.Component {
     );
     return (
       <div className={classes.section}>
-        <h2 className={classes.title}>Here is our team</h2>
+        <h2 className={classes.title}>Our Chefs</h2>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
@@ -41,19 +41,18 @@ class TeamSection extends React.Component {
                   <img src={team1} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Gigi Hadid
+                  Rupert Boreland
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>Host Chef</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                  As a corporate chef, Rupert Boreland has worked in kitchens all around 
+                  the world, from Germany to Toronto and has acquired the highest 
+                  attainable culinary designation CCC (certified chef de cuisine). 
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
+                {/*<CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
                     color="transparent"
@@ -75,7 +74,7 @@ class TeamSection extends React.Component {
                   >
                     <i className={classes.socials + " fab fa-facebook"} />
                   </Button>
-                </CardFooter>
+              </CardFooter>*/}
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
@@ -84,19 +83,18 @@ class TeamSection extends React.Component {
                   <img src={team2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Christian Louboutin
+                  Becky Lennerton
                   <br />
-                  <small className={classes.smallTitle}>Designer</small>
+                  <small className={classes.smallTitle}>Guest Chef</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                  As the corporate chef of the Black River Food Company who believes 
+                  in the “Farm-to-table” philosophy. Chef Becky operates a catering 
+                  company and a food truck that features wild game.
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
+                {/*<CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
                     color="transparent"
@@ -111,7 +109,7 @@ class TeamSection extends React.Component {
                   >
                     <i className={classes.socials + " fab fa-linkedin"} />
                   </Button>
-                </CardFooter>
+                </CardFooter>*/}
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
@@ -120,19 +118,18 @@ class TeamSection extends React.Component {
                   <img src={team3} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Kendall Jenner
+                  Raffi
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>Guest Chef</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                  A corporate chef and butcher, Chef Raffi is an expert at breaking down 
+                  wild game to maximize yield. With his culinary experience, Chef Raffi 
+                  presents new ways of preparing wild game, quick, easy and delicious.
                   </p>
                 </CardBody>
-                <CardFooter className={classes.justifyCenter}>
+                {/*<CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
                     color="transparent"
@@ -154,7 +151,7 @@ class TeamSection extends React.Component {
                   >
                     <i className={classes.socials + " fab fa-facebook"} />
                   </Button>
-                </CardFooter>
+                </CardFooter>*/}
               </Card>
             </GridItem>
           </GridContainer>

@@ -41,11 +41,11 @@ function HeaderLinks({ ...props }) {
               Contact
             </Link>,
             <a
-              href="https://tannersbeach.ca"
+              href="https://wildtv.ca"
               target="_blank"
               className={classes.dropdownLink}
             >
-              Tanners Beach
+              Wild TV
             </a>
           ]}
         />
