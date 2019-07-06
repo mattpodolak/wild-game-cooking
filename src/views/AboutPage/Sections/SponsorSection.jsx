@@ -37,7 +37,12 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={sponsor1} alt="..." className={imageClasses} />
+                  <a 
+                    href="https://www.gbscooks.com"
+                    target="_blank"
+                   >
+                    <img src={sponsor1} alt="..." className={imageClasses} />
+                  </a>
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   {/*Rupert Boreland
@@ -56,7 +61,12 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={sponsor2} alt="..." className={imageClasses} />
+                  <a
+                    href="https://www.nutrafarms.ca"
+                    target="_blank"
+                  >
+                    <img src={sponsor2} alt="..." className={imageClasses} />
+                  </a>
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   {/*Rupert Boreland
@@ -75,7 +85,12 @@ class TeamSection extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={sponsor3} alt="..." className={imageClasses} />
+                  <a
+                    href="https://wildtv.ca"
+                    target="_blank"
+                  >
+                    <img src={sponsor3} alt="..." className={imageClasses} />
+                  </a>
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   {/*Rupert Boreland

@@ -72,8 +72,8 @@ class LandingPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <ProductSection />
             <SectionCarousel />
+            <ProductSection />
             <TeamSection />
             <WorkSection />
           </div>

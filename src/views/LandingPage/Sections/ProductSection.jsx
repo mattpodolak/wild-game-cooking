@@ -5,9 +5,9 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+import ListAlt from "@material-ui/icons/ListAlt";
+import DoneAll from "@material-ui/icons/DoneAll";
+import FilterList from "@material-ui/icons/FilterList";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -22,13 +22,9 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>TV Show Details</h2>
+            <h2 className={classes.title}>Wild Game</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              show. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise they wouldn{"'"}t scroll to get here. Add a button if you
-              want the user to see more.
+              Game [/ɡām/]: Game, in gastronomy, the flesh of any wild animal or bird. Game is usually classified according to three categories: small birds, game proper, and big game. 
             </h5>
           </GridItem>
         </GridContainer>
@@ -36,27 +32,26 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Chat}
+                description="Learn How to Cook Wild Game Without Any Hang-ups. 
+                Each episode will show you different ways on how to prepare your Wild Game."
+                icon={ListAlt}
                 iconColor="info"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={VerifiedUser}
+                description="Our Team of Chefs will demonstrate some quick and easy ways to prepare wild game. You work hard getting it, you might as well enjoy it to it’s fullest."
+                icon={DoneAll}
                 iconColor="success"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
+                //title="Big Game"
+                description="Wild Game doesn’t have to be boiled meat. It can be whatever your mind can imagine. Let Wild Game Cooking show you how to get the most from your wild game."
+                icon={FilterList}
                 iconColor="danger"
                 vertical
               />

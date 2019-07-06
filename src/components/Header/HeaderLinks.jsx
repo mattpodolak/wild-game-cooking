@@ -34,6 +34,9 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
+            <Link to="/" className={classes.dropdownLink}>
+              Home
+            </Link>,
             <Link to="/about" className={classes.dropdownLink}>
               About
             </Link>,
@@ -55,13 +58,13 @@ function HeaderLinks({ ...props }) {
               About
             </Link>
         </ListItem>*/}
-      <ListItem className={classes.listItem}>
+      {/*<ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
             <DeleteIcon />
           </IconButton>
         </Tooltip>*/}
-        <Tooltip
+        {/*<Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -110,7 +113,7 @@ function HeaderLinks({ ...props }) {
             <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
-      </ListItem>
+        </ListItem>*/}
     </List>
   );
 }
